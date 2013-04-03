@@ -1,0 +1,61 @@
+/* ****************************************************************************
+ * UAM - EPS - Ingeniería de Tecnologías y Servicios de Telecomunicación
+ * Arquitectura de Redes 2 - Practica 3.
+ * Profesores.:	Saul Labajo Izquierdo.
+ *      	Manuel Ruiz Fernández.
+ *
+ * Proyecto...: Laboratorio 3 - ARP (Address Resolution Protocol, RFC 826)
+ * File.......: README
+ * Link Git...: https://github.com/kamihouse/UAM-EPS-Redes2-ARP
+ *
+ * Author.....: Thiago Pereira Rosa (thiago.pereirarosa@estudiante.uam.es)
+ *
+ * Implementar el código de arp.h y arp.c de forma que el programa arpt.c
+ * que se os proporciona compile bien y realice las funcionalidades del protocolo ARP.
+ * Created on 28/03/2013, 11:55
+ *************************************************************************** */
+
+1) Archivos:
+
+    - arp.c
+    - arp.h
+    - arpt.c
+    - ip.h
+    - rc_funcs.c    // Propriedad de la UAM
+    - rc_funcs.h    // Propriedad de la UAM
+    - Makefile
+    - nivel1a.c     // Propriedad de la UAM
+    - nivel1a.h     // Propriedad de la UAM
+    - README
+
+
+2) Cómo Instalar:
+
+    - Copie todos los archivos en un directorio de su elección.
+    - Ejecute el comando 'make' en el terminal.
+    - Espere a compilar todos los archivos.
+
+
+3) Cómo Ejecutar:
+
+    - Ejecutar el programa ethd './ethd' con 1º, 2º y 3º Argumentos.
+        - Ej: ethd 120 0 v
+        - Los argumentos e detalles estan en la documentacion: 
+            - https://moodle.uam.es/mod/resource/view.php?id=505027
+            - http://www.ii.uam.es/%7Erc1lab/files/ethd-4.1.1B-64-source.tar.gz
+
+    - Configurar las ventanas del terminal
+        - Ej Ventana 1 del terminal:
+            - export EHOST=1
+            - export IPLOCAL=1.1.1.1
+        - Ej Ventana 2 del terminal:
+            - export EHOST=2
+            - export IPLOCAL=2.2.2.2
+
+    - Ejecutar el programa con el comando './arpt' em 2 terminales.
+        - Escrive 'h' para ayuda.
+        - Los Comandos:
+            a = Enviar Trama
+            b = Mostrar Tabla ARP
+            q = Salir
+
